@@ -2,7 +2,7 @@
 target/
 
 #idea ignore
-.idea/
+#.idea/
 /idea/
 *.iws
 *.iml
