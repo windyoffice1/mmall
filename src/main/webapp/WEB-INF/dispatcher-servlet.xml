@@ -30,6 +30,12 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.mmall.interceptor.LogHandlerInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 
     <!-- 文件上传 -->
